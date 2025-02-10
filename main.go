@@ -12,6 +12,7 @@ import (
 
 	// "GOSTUDY/embedding"
 	// "GOSTUDY/errorhandle"
+	"GOSTUDY/channeltest"
 	"GOSTUDY/gorutine"
 	"runtime"
 
@@ -119,6 +120,7 @@ func main() {
 	runtime.GOMAXPROCS(2)
 	gorutine.Goroutine()
 
+	channeltest.Channeltest6()
 }
 
 
